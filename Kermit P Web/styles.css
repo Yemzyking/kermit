@@ -1,0 +1,87 @@
+
+ img {
+    width: 30%;
+    display: block;
+    border-style: double;
+    border-color:rgb(9, 124, 201);
+    border-width: 10px;
+    margin: 100px auto 20px;
+    border-radius: 10px
+
+   }
+
+#Bozoo { background-color:black;
+          color:white;
+          padding:20px;
+          line-height:2;
+          letter-spacing: 2px;
+          word-spacing: 2px;
+          text-shadow: 2px 2px 5px rgb(15, 15, 114);
+          font: italic 15px/30px Georgia, serif;
+          text-align: center;
+    }
+
+#Bozoo1 { background-color:grey;
+          color:white;
+          padding:15px;
+          letter-spacing: 2px;
+          word-spacing: 4px;
+          text-shadow: 2px 2px 5px black;
+          font: 21px sans-serif;
+          text-align: center;
+        }
+
+h1 { font: 30px sofia sans-serif ; 
+   text-align: center;
+  }
+
+p { font: 17px courier, sans-serif;
+   font-weight: normal;
+   text-align: center;
+}
+
+input { box-sizing: border-box;
+       display: block;
+       border-radius: 20px;
+       border: 2.5px solid rgb(133, 103, 6);
+       height: 54px;
+       margin: 0 auto 10px;
+       max-width: 560px;
+       width: 90%;
+       padding-left: 170px;
+       font-size: 16px; 
+       background-color: rgb(183, 186, 189);
+       
+     }
+::placeholder {
+       color: black ;
+       font-size: 16px;
+       font-weight: normal;
+       font-style: italic;
+     }
+
+button {
+        box-sizing: border-box;
+        display: block;
+        border-radius: 15px;
+        margin: auto;
+        width: 40%;
+        font-size: 14px;
+        height: 36px;
+        background-color: #4396e9;
+        border: 1px solid #0d4781;
+        cursor: pointer;
+
+}
+
+#video { 
+     
+       display: block;
+       margin: 20px auto 20px;
+
+}
+
+body {
+   background-color: rgb(219, 235, 235);
+   
+}
